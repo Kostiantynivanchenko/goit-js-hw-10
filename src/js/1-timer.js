@@ -52,6 +52,12 @@ function startTimer() {
         title: "Success",
         message: "Countdown finished!",
       });
+
+      
+      input.disabled = false;
+      startBtn.disabled = true; 
+      userSelectedDate = null; 
+
       return;
     }
 
